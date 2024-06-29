@@ -1,0 +1,40 @@
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;;
+}
+
+.image-container {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    aspect-ratio: 1 / 1; /* Maintains a square aspect ratio */
+}
+
+.background, .foreground {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foreground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    transform: translate(-50%, -50%);
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 600px) {
+    .image-container {
+        width: 100%;
+    }
+    .foreground{
+        width: 97%;
+    }
+}

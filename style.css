@@ -1,0 +1,354 @@
+/* styles.css */
+
+.nav_style {
+  background-color: #f8f9fa; /* Adjust the background color as needed */
+  padding: 10px 0;
+}
+
+.navbar-brand img {
+  max-width: 100px; /* Adjust the logo size as needed */
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.form-control {
+  border-radius: 30px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+@media (max-width: 992px) {
+  .form-control {
+    width: 200px; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .form-control {
+    width: 150px; /* Adjust width for even smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 5px 10px;
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/*
+ .wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .text-box h4 {
+            margin: 0;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .container-fluid {
+            background-color: #000; /* Adjust the background color as needed */
+        /*    padding: 20px;
+        }
+
+*/
+
+/* Flexbox utilities to center the section within a specific container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Video container styling */
+.video-container {
+  width: 650px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Iframe styling */
+.video-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+
+.mission-vision-section {
+    margin-top: 1.5rem; /* Equivalent to mt-6 */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem; /* Equivalent to gap-8 */
+}
+
+@media (min-width: 1024px) {
+    .mission-vision-section {
+        grid-template-columns: auto 35% auto;
+    }
+}
+
+.content {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.title {
+    color: #1E40AF; /* Equivalent to text-blue-600 */
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    color: #374151; /* Equivalent to text-gray-700 */
+    text-align: justify;
+}
+
+.image-container {
+    height: 18rem; /* Equivalent to h-72 */
+}
+
+@media (min-width: 1024px) {
+    .image-container {
+        height: 100%; /* Equivalent to h-full */
+    }
+}
+
+.image {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.margin-t-6 {
+    margin-top: 1.5rem; /* Equivalent to mt-6 */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* Equivalent to gap-4 */
+}
+
+@media (min-width: 768px) {
+    .flex-container {
+        flex-direction: row;
+    }
+}
+
+.grid-container {
+    width: 100%;
+    max-width: 14rem;
+    height: 14rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.25rem; /* Equivalent to gap-1 */
+}
+
+.grid-item {
+    background-color: #d3d3d3; /* Light grey placeholder */
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.img-small {
+    width: 4rem;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+}
+
+.img-large {
+    width: 5rem;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+}
+
+.recognition-container {
+    background-color: #1e40af; /* Equivalent to bg-blue-1 */
+    height: 14rem;
+    padding: 0 1.5rem; /* Equivalent to px-6 */
+    max-width: 22rem;
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.recognition-title {
+    color: #fff; /* Text color white */
+    font-size: 1.75rem; /* Equivalent to h3 */
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-light-grey {
+    background-color: #f0f0f0; /* Light grey */
+}
+
+.bg-light-green {
+    background-color: #F3FCED; /* Light green */
+}
+
+.bg-light-green-2 {
+    background-color: #EBFFF2; /* Slightly different light green */
+}
+
+.bg-light-blue {
+    background-color: #E9F6FF; /* Light blue */
+}
+
+.bg-light-grey-2 {
+    background-color: #ECEFE1; /* Another light grey */
+}
+
+
+.contact-us-form {
+  width: 93%;
+  max-width: 75rem;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .contact-us-form {
+    width: 90%;
+  }
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.text-blue-1 {
+  color: #1E90FF;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.form-response {
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.form-container {
+  height: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .form-container {
+    flex-direction: row;
+  }
+}
+
+.form {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .form {
+    width: 50%;
+  }
+}
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .input-group {
+    flex-direction: row;
+    gap: 0 1rem;
+  }
+}
+
+.input-wrapper {
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.select-dropdown {
+  color: #a9a3af;
+}
+
+.default-option {
+  color: #a9a3af;
+}
+
+.option {
+  color: black;
+}
+
+.captcha-wrapper {
+  width: 100%;
+  height: 78px;
+  display: flex;
+  align-items: center;
+}
+
+.submit-button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+}
+
+.form-image {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .form-image {
+    width: 50%;
+  }
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
